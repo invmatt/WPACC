@@ -7,4 +7,4 @@ Options include standard mode, black on white (with or without images and white 
 
 Add the link in to your theme
 
-<pre><?php echo wpacc_option_link; ?></pre>
+<code><?php echo wpacc_option_link; ?></code>
