@@ -1,0 +1,49 @@
+/* Select Layout Page */
+
+.wpacc-layout-select {
+	font-size: 18px;
+	text-align: center;
+	background: #E8E8E8;
+	font-family: Arial, Sans-Serif;
+}
+
+ul, li {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+.accessibility-container {
+	width: 600px;
+	padding: 20px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+	.wpacc-item {
+		padding: 10px;
+		margin-bottom: 6px;
+	}
+
+		.item-1 {
+			background: #E8E8E8;
+		}
+
+		.item-2, .item-3 {
+			border: 2px solid #E8E8E8;
+		}
+
+		.item-4, .item-5 {
+			background: #000;
+		}
+
+			.item-4 a, .item-5 a {
+				color: #fff;
+			}
