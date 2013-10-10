@@ -19,7 +19,7 @@ if ( ! is_admin() ) {
 
 	// PLUGIN SETTINGS
 	// Plugin folder name and accessibility link
-	define("plugin_name", "CubikAccess");
+	define("plugin_name", "WPACC");
 	define("wpacc_option_link", "<a href='".plugins_url()."/". plugin_name ."/inc/accessibility.php' data-install='". site_url() ."' class='wpacc-access-link'>Accessibility options</a>");
 	
 	// URL REWRITE
