@@ -5,7 +5,6 @@
 	<meta charset="utf-8">
 	<title>Accessibility Options</title>
 	<meta name="description" content="Select the website layout">
-	<meta name="author" content="Cubik Solutions LTD">
 	<link rel="stylesheet" href="access.css">
 </head>
 
