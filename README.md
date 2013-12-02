@@ -1,5 +1,4 @@
-WordPress Accessibility plugin
-=====
+<h1>WordPress Accessibility plugin <sup>2.0</sup></h1>
 
 <img src="http://i.imgur.com/1qTxWNQ.png" />
 
