@@ -4,7 +4,7 @@
 	Plugin Name: Wordpress Accessibility Plugin (wpacc)
 	Plugin URI: http://invinta.com
 	Description: A Wordpress plugin which adds accessible colour options
-	Version: 1.0.0
+	Version: 2.0.0
 	Author: Invinta
 	Author URI: http://invinta.com
 	*/
@@ -19,8 +19,7 @@ if ( ! is_admin() ) {
 
 	// PLUGIN SETTINGS
 	// Plugin folder name and accessibility link
-	define("plugin_name", "WPACC");
-	define("wpacc_option_link", "<a href='".plugins_url()."/". plugin_name ."/inc/accessibility.php' data-install='". site_url() ."' class='wpacc-access-link'>Accessibility options</a>");
+	define("wpacc_option_link", "<a href='".plugin_dir_url(__FILE__)."inc/accessibility.php' data-install='". site_url() ."' class='wpacc-access-link'>Accessibility options</a>");
 	
 	// URL REWRITE
 	// Masks the URL to the accessibilty page and makes it more friendly
