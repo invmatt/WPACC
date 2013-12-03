@@ -23,4 +23,4 @@ if (jQuery('body').is('.wpacc-2, .wpacc-3, .wpacc-4, .wpacc-5')) {
 // @ADDSTYLE
 // Add the base WPACC styling back in
 var install_path = jQuery(".wpacc-access-link").data("install");
-jQuery('head').append('<link rel="stylesheet" href="'+ install_path +'/wp-content/plugins/CubikAccess/inc/wpacc.css" type="text/css" />');
+jQuery('head').append('<link rel="stylesheet" href="'+ install_path +'wpacc.css" type="text/css" />');
