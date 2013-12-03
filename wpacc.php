@@ -19,7 +19,7 @@ if ( ! is_admin() ) {
 
 	// PLUGIN SETTINGS
 	// Plugin folder name and accessibility link
-	define("wpacc_option_link", "<a href='".plugin_dir_url(__FILE__)."inc/accessibility.php' data-install='". site_url() ."' class='wpacc-access-link'>Accessibility options</a>");
+	define("wpacc_option_link", "<a href='".plugin_dir_url(__FILE__)."inc/accessibility.php' data-install='".plugin_dir_url(__FILE__)."/inc/' class='wpacc-access-link'>Accessibility options</a>");
 	
 	// URL REWRITE
 	// Masks the URL to the accessibilty page and makes it more friendly
