@@ -28,7 +28,7 @@ if ( ! is_admin() ) {
 	function wpacc_link_rewrite() {
 
 		global $wp_rewrite;
-		$wpacc_link = plugins_url()."/".plugin_name."/inc/accessibility.php";
+		$wpacc_link = plugin_dir_url(__FILE__)."/inc/accessibility.php";
 
 		$new_non_wp_rules = array(
 			'index.php?(.*)'    => ''. $wpacc_link .'/$1',
