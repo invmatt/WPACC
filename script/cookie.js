@@ -23,4 +23,5 @@ if (jQuery('body').is('.wpacc-2, .wpacc-3, .wpacc-4, .wpacc-5')) {
 // @ADDSTYLE
 // Add the base WPACC styling back in
 var install_path = jQuery(".wpacc-access-link").data("install");
+// !! This is hacky and will be fixed in an upcoming release.
 jQuery('head').append('<link rel="stylesheet" href="'+ install_path +'wpacc.css" type="text/css" />');
